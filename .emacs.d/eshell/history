@@ -1,0 +1,4 @@
+ls
+cd .emacs.d/elpa/jedi-0.1.2/
+ls
+sudo pip install -r requirements.txt 
