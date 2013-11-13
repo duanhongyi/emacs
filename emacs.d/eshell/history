@@ -2,3 +2,15 @@ ls
 cd .emacs.d/elpa/jedi-0.1.2/
 ls
 sudo pip install -r requirements.txt 
+ls
+dir
+(+ 1 2)
+(display "hello")
+(message "hello")
+(display-time-mode)
+(setq hdsfa 10)
+(message hdsfa)
+(str hdsfa)
+(equal t nil)
+(message (equal t nil))
+(message 'sad)
