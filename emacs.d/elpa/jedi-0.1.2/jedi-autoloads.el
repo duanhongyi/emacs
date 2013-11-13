@@ -57,8 +57,8 @@ what jedi can do.
 
 \(fn)" t nil)
 
-(autoload 'jedi:restart-server "jedi" "\
-Restart Jedi server.
+(autoload 'jedi:refresh "jedi" "\
+Restart Jedi server and refresh env,Used when the env changes.
 \(fn)" t nil)
 
 ;;;***
