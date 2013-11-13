@@ -57,6 +57,10 @@ what jedi can do.
 
 \(fn)" t nil)
 
+(autoload 'jedi:restart-server "jedi" "\
+Restart Jedi server.
+\(fn)" t nil)
+
 ;;;***
 
 ;;;### (autoloads nil nil ("jedi-pkg.el" "tryout-jedi.el") (21115
