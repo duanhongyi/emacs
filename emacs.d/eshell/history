@@ -14,3 +14,10 @@ dir
 (equal t nil)
 (message (equal t nil))
 (message 'sad)
+(defun 谁大 (甲 乙)"比较给定的两个数谁大。"  (if (> 甲 乙)      (message "%d 更大！" 甲)      (message "%d 更大！" 乙)))(谁大 5 9)
+jedi:epc
+(jedi:epc)
+jedi:refresh
+(jedi:refresh)
+jedi:epc
+(jedi:epc)

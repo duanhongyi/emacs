@@ -57,10 +57,6 @@ what jedi can do.
 
 \(fn)" t nil)
 
-(autoload 'jedi:refresh "jedi" "\
-Restart Jedi server and refresh env,Used when the env changes.
-\(fn)" t nil)
-
 ;;;***
 
 ;;;### (autoloads nil nil ("jedi-pkg.el" "tryout-jedi.el") (21115

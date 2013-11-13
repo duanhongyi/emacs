@@ -454,14 +454,6 @@ later when it is needed."
   (setq jedi:get-in-function-call--d nil)
   (setq jedi:defined-names--singleton-d nil))
 
-;;;Restart Jedi server and refresh env,Used when the env changes.
-(defun jedi:refresh ()
-  (interactive)
-  (if jedi:epc
-    (not (epc:stop-epc jedi:epc))
-    (jedi:stop-server))
-  (jedi:start-server))
-
 (defun jedi:get-epc ()
   (if (jedi:epc--live-p jedi:epc)
       jedi:epc
