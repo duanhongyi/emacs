@@ -55,4 +55,4 @@
  ;; If there is more than one, they won't work right.
  )
 
- (global-set-key (kbd "C-p") 'fiplr-find-file)
+(global-set-key (kbd "C-x C-p") 'fiplr-find-file)
