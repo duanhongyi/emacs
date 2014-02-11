@@ -3,8 +3,10 @@
 ;;; Code:
 
 
-;;;### (autoloads nil nil ("python-mode-pkg.el" "python-mode.el")
-;;;;;;  (21115 46538 96344 511000))
+;;;### (autoloads nil nil ("../../../../../.emacs.d/elpa/python-mode-6.0.10/python-mode-autoloads.el"
+;;;;;;  "../../../../../.emacs.d/elpa/python-mode-6.0.10/python-mode-pkg.el"
+;;;;;;  "../../../../../.emacs.d/elpa/python-mode-6.0.10/python-mode.el")
+;;;;;;  (21241 39108 192193 813000))
 
 ;;;***
 
