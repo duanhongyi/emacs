@@ -5,7 +5,7 @@
 (add-to-list 'load-path "~/.emacs.d/")
 (set-scroll-bar-mode nil);关闭滚动条
 (tool-bar-mode -1);删除工具栏
-;(menu-bar-mode -1);删除菜单栏
+(menu-bar-mode -1);删除菜单栏
 
 (setq inhibit-startup-message t);关闭启动画面
 (setq initial-scratch-message "");清除屏幕文字
@@ -16,7 +16,7 @@
 (column-number-mode t);显示列号
 (show-paren-mode t);显示括号匹配
 (setq x-select-enable-clipboard t);支持emacs和外部程序的粘贴
-;(global-linum-mode t)
+;(global-linum-mode t);显示行号
 ;(blink-cursor-mode -1);指针不闪烁
 ;(transient-mark-mode 1);指针不闪烁
 
