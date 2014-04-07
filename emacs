@@ -16,6 +16,7 @@
 (column-number-mode t);显示列号
 (show-paren-mode t);显示括号匹配
 (setq x-select-enable-clipboard t);支持emacs和外部程序的粘贴
+(setq-default cursor-type 'bar);设置光标为竖线 
 ;(global-linum-mode t);显示行号
 ;(blink-cursor-mode -1);指针不闪烁
 ;(transient-mark-mode 1);指针不闪烁
@@ -62,3 +63,11 @@
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+
+;auto-complete
+(setq ac-auto-start nil)
+(ac-set-trigger-key "TAB")
+
+(global-set-key "\M-/" 'auto-complete)
+(define-key ac-completing-map "\C-n" 'ac-next)
+(define-key ac-completing-map "\C-p" 'ac-previous)
