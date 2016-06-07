@@ -2,7 +2,6 @@
       (directory-files "~/.emacs.d/site-lisp" t "\\.el\\'"))
 
 ;;基本设置
-(add-to-list 'load-path "~/.emacs.d/")
 (set-scroll-bar-mode nil);关闭滚动条
 (tool-bar-mode -1);删除工具栏
 (menu-bar-mode -1);删除菜单栏
